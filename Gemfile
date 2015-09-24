@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails_12factor'
+gem 'therubyracer', platforms: :ruby
+gem 'rails_12factor', group: :production
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -45,9 +47,9 @@ group :development, :test do
 end
 
 
-gem 'sqlite3', :group => [:development, :test]
-group :production do
+#gem 'sqlite3', :group => [:development, :test]
+#group :production do
 
 gem 'pg'
-end
+#end
 
