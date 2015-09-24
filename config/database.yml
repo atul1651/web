@@ -27,7 +27,7 @@ test:
 
 
 production:
-adapter: postgresql
+adapter: postgres
 encoding: utf8
 database: spree_production
 username: postgres
