@@ -26,11 +26,11 @@ test:
 
 
 
-production:
-adapter: postgres
-encoding: utf8
-database: spree_production
-username: postgres
-password: root
-host: localhost
+#production:
+#adapter: postgres
+#encoding: utf8
+#database: spree_production
+#username: postgres
+#password: root
+#host: localhost
 
