@@ -48,9 +48,14 @@ group :development, :test do
 end
 
 
+
 gem 'sqlite3', :group => [:development, :test]
-#group :production do
+group :production do
 
 gem 'pg'
-#end
+end
+
+
+
+
 

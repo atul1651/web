@@ -1,9 +1,22 @@
 Rails.application.routes.draw do
-  get 'welcome/home'
 
-  get 'welcome/home'
+  get 'welcome/page'=>'welcome#page'
+
 
 get 'welcome/terms'=>'welcome#terms'
+get 'welcome/about'=>'welcome#about'
+get 'welcome/careers'=>'welcome#careers'
+get 'welcome/blog'=>'welcome#blog'
+get 'welcome/services'=>'welcome#services'
+get 'welcome/contact'=>'welcome#contact'
+
+#service routes#
+get 'welcome/service1'=>'welcome#service1'
+get 'welcome/service2'=>'welcome#service2'
+get 'welcome/service3'=>'welcome#service3'
+get 'welcome/service4'=>'welcome#service4'
+get 'welcome/service5'=>'welcome#service5'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

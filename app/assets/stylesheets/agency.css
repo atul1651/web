@@ -61,7 +61,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+   /* background-color: #f7f7f7;*/
 }
 
 .bg-darkest-gray {
@@ -322,12 +322,15 @@ header .intro-text .intro-heading {
 
 section {
     padding: 100px 0;
+
+background:black;
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+color:white;
 }
 
 section h3.section-subheading {
@@ -500,6 +503,8 @@ section h3.section-subheading {
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
+
+
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -529,10 +534,12 @@ section h3.section-subheading {
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+color:white;
 }
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+color:white;
 }
 
 .timeline .timeline-body>p,
@@ -641,6 +648,7 @@ section h3.section-subheading {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+    color:white;
 }
 
 .team-member p {
