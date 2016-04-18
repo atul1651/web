@@ -68,7 +68,7 @@
 
                                </div> 
 
-           <br> <div class="row">
+          <div class="row">
 
 
  <%= link_to "http://www.linkedin.com" do %>
@@ -107,15 +107,7 @@
                       <p> Maharashtra Co-op Housing Society,</p>
                       <p> Pune - Satara Road, Parvati, Pune,</p>
 		      <p>Maharashtra 411009 </p>
-                      <!--<p><span class="fa fa-phone"></span>+1 212-982-4589</p>
-                      <p><span class="fa fa-envelope"></span>dailyshop@gmail.com</p>-->
-                    </address>
-                    <div class="aa-footer-social">
-                      <a href="#"><span class="fa fa-facebook"></span></a>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
-                      <a href="#"><span class="fa fa-google-plus"></span></a>
-                      <a href="#"><span class="fa fa-youtube"></span></a>
-                    </div>
+               
                   </div>
                 </div>
               </div>
