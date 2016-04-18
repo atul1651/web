@@ -12,11 +12,11 @@
                 <div class="aa-footer-widget">
                   <h3>Main Menu</h3>
 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Services</a></li>
-                    <li><a href="#">Our Products</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <p><a href="/">Home</a></p>
+                    <p><%= link_to 'About',:controller=>'welcome',:action=>'about'%></p>
+                    <p><%= link_to 'Blog',:controller=>'welcome',:action=>'blog'%></p>
+                    <p><%= link_to 'Careers',:controller=>'welcome',:action=>'careers'%></p>
+                    <p><%= link_to 'Contact',:controller=>'welcome',:action=>'contact'%></p>
 
                 </div>
               </div>
@@ -25,11 +25,11 @@
                   <div class="aa-footer-widget">
                     <h3>Services</h3>
 
-                      <li><%= link_to 'Motorcycles',:controller=>'welcome',:action=>'service1'%></li>
-                      <li><%= link_to 'Bikes',:controller=>'welcome',:action=>'service2'%></li>
-                      <li><%= link_to 'Travel',:controller=>'welcome',:action=>'service3'%></li>
-                      <li><%= link_to 'Marketing',:controller=>'welcome',:action=>'service4'%></li>
-                      <li><%= link_to 'Electronics',:controller=>'welcome',:action=>'service5'%></li>
+                     <p> <%= link_to 'Seo',:controller=>'welcome',:action=>'service1'%></p>
+                      <p><%= link_to 'Smm',:controller=>'welcome',:action=>'service2'%></p>
+                      <p><%= link_to 'Web_development',:controller=>'welcome',:action=>'service3'%></p>
+                      <p><%= link_to 'Content_marketing',:controller=>'welcome',:action=>'service4'%></p>
+                      <p><%= link_to 'Orm',:controller=>'welcome',:action=>'service5'%></p>
 
                   </div>
                 </div>
@@ -42,44 +42,44 @@
  <div class="container">
             <div class="row">
 
- <div class="col-md-3 ">
+
 
     <%= link_to "http://www.facebook.com" do %>
         <%= image_tag ('about/Facebook1.png') ,:width=>'50',:height=>'50' %>
     <% end %>
 
-                               </div>
 
-<div class="col-md-3 ">
+
+
  <%= link_to "http://www.youtube.com" do %>
-        <%= image_tag ('about/hexagon-social-youtube.png') ,:width=>'50',:height=>'50' %>
+        <%= image_tag ('about/utube-hex.png') ,:width=>'50',:height=>'50' %>
     <% end %>
 
 
 
-                               </div>
-<div class="col-md-3 ">
+
+
  <%= link_to "http://www.twitter.com" do %>
-        <%= image_tag ('about/aa.png'),:width=>'50',:height=>'50' %>
+        <%= image_tag ('about/twitter-last.png'),:width=>'50',:height=>'50' %>
     <% end %>
 
 
 
-                               </div> 
+
                                </div> 
 
            <br> <div class="row">
 
-<div class="col-md-4 ">
+
  <%= link_to "http://www.linkedin.com" do %>
         <%= image_tag ('about/linkedin-hexagon-gloss-social-media-128.png') ,:width=>'50',:height=>'50' %>
     <% end %>
 
 
 
-                               </div> 
 
-<div class="col-md-4 ">
+
+
  <%= link_to "https://plus.google.com/" do %>
         <%= image_tag ('about/google_plus-hexagon-social-media-256.png') ,:width=>'50',:height=>'50' %>
     <% end %>
@@ -87,7 +87,7 @@
 
 
 
-                               </div>  
+
 
 
  
@@ -103,9 +103,12 @@
                   <div class="aa-footer-widget">
                     <h3>Contact Us</h3>
                     <address>
-                      <p> 25 Astor Pl, NY 10003, USA</p>
-                      <p><span class="fa fa-phone"></span>+1 212-982-4589</p>
-                      <p><span class="fa fa-envelope"></span>dailyshop@gmail.com</p>
+                      <p>2nd Floor, 49/2B/3, "VAIBHAV" Building,</p>
+                      <p> Maharashtra Co-op Housing Society,</p>
+                      <p> Pune - Satara Road, Parvati, Pune,</p>
+		      <p>Maharashtra 411009 </p>
+                      <!--<p><span class="fa fa-phone"></span>+1 212-982-4589</p>
+                      <p><span class="fa fa-envelope"></span>dailyshop@gmail.com</p>-->
                     </address>
                     <div class="aa-footer-social">
                       <a href="#"><span class="fa fa-facebook"></span></a>
@@ -131,6 +134,16 @@
 /*==================
  FOOTER SECTION
 ====================*/
+
+
+a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    background:none;
+    padding: 0px;
+}
+
 
 #aa-footer {
 margin-top: 50px;
@@ -170,7 +183,7 @@ margin-top: 50px;
 }
 #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p {
   margin-bottom: 5px;
-  color: #888;
+  color:white;
 }
 #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p span {
   margin-right: 5px;
