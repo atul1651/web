@@ -114,10 +114,10 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 				<div class="hovereffect">
 		<img class="img-responsive"  src="1.jpg" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<h2>SEO</h2>
+				<a href="/welcome/service1"><h2>SEO</h2>
 				<p> Any text
-				<a href="#">LINK HERE</a>
-				</p> 
+				LINK HERE
+				</p> </a>
 				</div>
 				</div>
 				</div>
@@ -127,10 +127,9 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 				<div class="hovereffect">
 				<img class="img-responsive" src="1.jpg" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<h2>SEO</h2>
-				<p> Any text
-				<a href="#">LINK HERE</a>
-				</p> 
+				<a href="/welcome/service2"><h2>SMM</h2>
+				<p> "Do social media not to impress people but to impact people."</p>
+				 </a>
 				</div>
 				</div>
 				</div>
@@ -140,10 +139,9 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 				<div class="hovereffect">
 				<img class="img-responsive" src="1.jpg" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<h2>SEO</h2>
-				<p> Any text
-				<a href="#">LINK HERE</a>
-				</p> 
+				<a href="/welcome/service3"><h2>WEB DEVELOPMENT</h2>
+		<p> “Good web design is all about making other developers feel like idiots because that idea wasn't theirs.”</p>
+				 </a>
 				</div>
 				</div>
 
@@ -159,10 +157,9 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 				<div class="hovereffect">
 				<img class="img-responsive" src="1.jpg" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<h2>SEO</h2>
-				<p> Any text
-				<a href="#">LINK HERE</a>
-				</p> 
+				<a href="/welcome/service4"><h2>CONTENT MARKETING</h2>
+				<p> “Showcase SMART content and you'll earn the right to promote your product, content being the atomic particle of all Digital marketing.”</p>
+				 </a>
 				</div>
 				</div>
 
@@ -173,12 +170,12 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 
 				<div class="col-md-4">
 				<div class="hovereffect">
-				<img class="img-responsive" src="1.jpg" width="100%" height="100%" alt="">
+				<img class="img-responsive"  src="1.jpg" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<h2>SEO</h2>
+				<a href="/welcome/service5"><h2>ORM</h2>
 				<p> Any text
-				<a href="#">LINK HERE</a>
-				</p> 
+				LINK HERE
+				</p> </a>
 				</div>
 				</div>
 
@@ -824,6 +821,12 @@ margin-left: 0px;
   transform: translate3d(0,0,0);
 }
 
+.hovereffect a{
+
+width:100%;
+height:100%;
+
+}
 
 
 </style>
