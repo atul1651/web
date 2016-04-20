@@ -12,11 +12,11 @@
                 <div class="aa-footer-widget">
                   <h3>Main Menu</h3>
 
-                    <p><a href="/">Home</a></p>
-                    <p><%= link_to 'About',:controller=>'welcome',:action=>'about'%></p>
-                    <p><%= link_to 'Blog',:controller=>'welcome',:action=>'blog'%></p>
-                    <p><%= link_to 'Careers',:controller=>'welcome',:action=>'careers'%></p>
-                    <p><%= link_to 'Contact',:controller=>'welcome',:action=>'contact'%></p>
+                    <p><a href="/">HOME</a></p>
+                    <p><%= link_to 'ABOUT',:controller=>'welcome',:action=>'about'%></p>
+                    <p><%= link_to 'BLOG',:controller=>'welcome',:action=>'blog'%></p>
+                    <p><%= link_to 'CAREERS',:controller=>'welcome',:action=>'careers'%></p>
+                    <p><%= link_to 'CONTACT',:controller=>'welcome',:action=>'contact'%></p>
 
                 </div>
               </div>
@@ -25,11 +25,11 @@
                   <div class="aa-footer-widget">
                     <h3>Services</h3>
 
-                     <p> <%= link_to 'Seo',:controller=>'welcome',:action=>'service1'%></p>
-                      <p><%= link_to 'Smm',:controller=>'welcome',:action=>'service2'%></p>
-                      <p><%= link_to 'Web_development',:controller=>'welcome',:action=>'service3'%></p>
-                      <p><%= link_to 'Content_marketing',:controller=>'welcome',:action=>'service4'%></p>
-                      <p><%= link_to 'Orm',:controller=>'welcome',:action=>'service5'%></p>
+                     <p> <%= link_to 'SEO',:controller=>'welcome',:action=>'service1'%></p>
+                      <p><%= link_to 'SMM',:controller=>'welcome',:action=>'service2'%></p>
+                      <p><%= link_to 'Web development',:controller=>'welcome',:action=>'service3'%></p>
+                      <p><%= link_to 'Content marketing',:controller=>'welcome',:action=>'service4'%></p>
+                      <p><%= link_to 'ORM',:controller=>'welcome',:action=>'service5'%></p>
 
                   </div>
                 </div>
