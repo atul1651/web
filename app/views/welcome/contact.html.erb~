@@ -4,6 +4,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+   
+ $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div#address').fadeOut(0, function(){
+                $(this).slideDown(3000);
+		});
+		});
+   
+$(function(){
+            // hide the div on page load and use a slidedown effect
+            $('section#contact').fadeOut(0, function(){
+                $(this).slideDown(15000);
+		});
+		});
+   
+
+
+
+
+
+ </script>
+
+
 <style>
 #map {
 margin-top:60px;
@@ -17,6 +49,8 @@ color:white;
     </style>
   </head>
   <body>
+
+<div class="floated-content">
 <h4>Find us on google:</h4>
     <div id="map"></div>
     <script>
@@ -28,8 +62,8 @@ color:white;
         });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-        async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"async defer></script>
+</div>
   </body>
 </html>
 

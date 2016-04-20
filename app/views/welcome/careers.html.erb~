@@ -1,5 +1,5 @@
-    <html>
-<!-- Team Section -->
+    <!--<html>
+ Team Section 
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -66,4 +66,117 @@
             </div>
         </div>
     </section>
+</html>--->
+
+
+
+
+<html>
+<div class="floated-content"><h3>CAREERS AT DIGIMERC:</h3>
+<p>“If you can't fly then run,</p>
+<p>If you can't run then walk,</p>
+<p>If you can't walk then crawl,</p>
+<p>But whatever you do you have to keep moving forward.”- Martin Luther King</p> 
+<p>Digital Media is here. It's not going away, not a passing fad. So be where your customers arein social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media. Being digital is the only platform in human history which allows people to really maintain rich connections with much larger numbers of people.</p>
+<p>As a social media marketing agency, Digimerchave a clear vision about the science behind what makes something shareable and have smart way to implement the same.
+Today team Digimerc is a new born baby. We are not that large, but filled with people experienced by their knowledge and not by age. We are a fast growing team of young, passionate and quick digital marketing professionals, ready to swiftly take on any number challenge brought to us. We are an innovation obsessed group of people that crafts wonders for our clients. We learn at each step.</p>
+<p>Whilst we're grinding away, we're acutely, energetically, madly, hysterically and insanely infatuated with everything that we do. Our work station is about CREATIVITY is insight having some good times.</p>
+<p>We help your brand to be heard and shared. Our advanced digital media methodology includes a top to bottom investigation of your brand and making customized content taking into account which stage will probably give you favorable position.</p>
+      </div>
+      <!-- ends floated content -->
+      <!-- sidebar -->
+      <aside id="sidebar">
+        <ul><h5>Form of enquiry</h5>
+     
+         <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus width="150px">
+      <button type="submit" class="subscribe-submit">Subscribe</button>
+
+        
+     
+        </ul>
+        <em id="corner"></em> </aside>
+      <!-- ENDS sidebar -->
+    </div>
+    <!--  page content-->
+  </div>
+</div>
+<!-- ENDS MAIN -->
+
+</body>
 </html>
+
+
+------------------------------------------------
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
+
+
+--------------------------------------------==----
+
+
+<style>
+#sidebar {
+    position: relative;
+    width: 200px;
+    float: left;
+    padding: 45px 0px 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+box-shadow: 2px 5px 2px 3px white !important;
+color: white;
+}
+
+
+
+.floated-content {
+    position: relative;
+    width:70%;
+    float: left;
+
+margin-left: 80px;
+margin-top: 10%;
+color: white;
+}
+aside{
+
+display: block;
+
+}
+
+
+ul{
+
+margin-left:-20px;
+}
+
+
+input.subscribe-input{
+text-align: center;
+width:170px;
+color: black;
+}
+
+button.subscribe-submit{
+    border-radius:0px;
+margin-left: 40px;
+margin-top:5px;
+color: black;
+}
+</style>
+
+
+
+
+
+
+
+

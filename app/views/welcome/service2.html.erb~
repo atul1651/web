@@ -38,6 +38,14 @@ We believe in working closely together to solve our clients’ business problems
 </body>
 </html>
 
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(2000);
+		});
+		});
+    </script>
 
 <style>
 #sidebar {

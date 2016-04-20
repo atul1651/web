@@ -10,7 +10,7 @@
         $(function(){
             // hide the div on page load and use a slidedown effect
             $('video#bgvid ').fadeOut(0, function(){
-                $(this).slideDown(10000);
+                $(this).slideDown(1000);
             });
 
         });
