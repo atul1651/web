@@ -1,6 +1,5 @@
 
 
-123
 <!------------------video---------------------------------------------------->
 <html>
 <body>
@@ -19,7 +18,7 @@
 
 
 video#bgvid { 
-display: none;
+
     margin-top:25%;
     position:relative;
     top: 50%;
@@ -38,11 +37,6 @@ margin-bottom:-25%;
     background-size: cover; 
 }
 </style>
-
-
-
-
-
 
 
 
