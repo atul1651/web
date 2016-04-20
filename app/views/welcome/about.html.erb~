@@ -1,11 +1,6 @@
 
 <html>
-<div id="black-page">
-
-
-</div>
-
-      <div class="floated-content"><h3>ABOUT US:</h3>
+<div class="floated-content"><h3>ABOUT US:</h3>
 <p>“If you can't fly then run,</p>
 <p>If you can't run then walk,</p>
 <p>If you can't walk then crawl,</p>
@@ -16,6 +11,12 @@ Today team Digimerc is a new born baby. We are not that large, but filled with p
 <p>Whilst we're grinding away, we're acutely, energetically, madly, hysterically and insanely infatuated with everything that we do. Our work station is about CREATIVITY is insight having some good times.</p>
 <p>We help your brand to be heard and shared. Our advanced digital media methodology includes a top to bottom investigation of your brand and making customized content taking into account which stage will probably give you favorable position.</p>
       </div>
+
+
+<div id="black-page">
+
+
+</div>
       <!-- ends floated content -->
       <!-- sidebar -->
       <aside id="sidebar">
