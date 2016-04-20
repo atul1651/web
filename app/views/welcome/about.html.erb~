@@ -1,6 +1,9 @@
 
 <html>
+<div id="black-page">
 
+
+</div>
 
       <div class="floated-content"><h3>ABOUT US:</h3>
 <p>“If you can't fly then run,</p>
@@ -34,6 +37,42 @@ Today team Digimerc is a new born baby. We are not that large, but filled with p
 
 </body>
 </html>
+
+
+------------------------------------------------
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div.floated-content').fadeOut(0, function(){
+                $(this).slideDown(4000);
+            });
+
+   $('div#black-page').fadeOut(0, function(){
+                $(this).slideDown(500);
+            });
+
+
+
+        });
+    </script>
+
+
+
+
+<style>
+
+#black-page{
+min-width:100%;
+background:yellow;
+min-height:100%;
+}
+
+
+</style>
+
+--------------------------------------------==----
 
 
 <style>
