@@ -3,21 +3,16 @@
 
 </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     <script>
+    
 
-
- 
-        $(function(){
-            // hide the div on page load and use a slidedown effect
-            $('video#bgvid ').fadeOut(0, function(){
-                $(this).slideDown(1000);
-            });
-
-        });
  $(function(){
             // hide the div on page load and use a slidedown effect
             $('div#black-page').fadeOut(0, function(){
-                $(this).slideDown(1000);
+                $(this).slideDown(3000);
             });
 
         });
@@ -27,6 +22,30 @@
 
     </script>
 
+
+<!-----------------------------------------fade in on scroll------------------------------------------------>
+
+<script>
+$(window).on("load",function() {
+  $(window).scroll(function() {
+    $("div#abt,div.col-md-4,section#team.bg-light-gray,section#contact").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+      }
+    });
+  }); $(window).scroll(); //invoke scroll-handler on page-load
+});
+
+
+</script>
+<!---------------------------------------------------------------------------------------------------------->
 <style>
 
 #black-page{
@@ -58,7 +77,7 @@ min-height:100%;
 
 
 video#bgvid { 
-display: none;
+
     margin-top:25%;
     position:relative;
     top: 50%;
@@ -739,6 +758,12 @@ The word nature is derived from the Latin word natura, or "essential qualities, 
 </html>
 
 <style>
+/*section#team.bg-light-gray,section#contact
+{
+
+ background-color: lightgreen;
+}
+
 
 span#link-to-about{
 
@@ -746,7 +771,7 @@ span#link-to-about{
 color:red;
 
 
-}
+}*/
 div.abt-heading{
 
 text-align:center;
@@ -760,6 +785,7 @@ padding-left:5%;
 padding-right:5%;
 font-size: 15px;
 margin-bottom:90px;
+ /*background-color: lightgreen;*/
 }
 
 .text-muted {
@@ -776,6 +802,9 @@ padding:1%;
   position: relative;
   text-align: center;
   cursor: default;
+
+ /*background-color: lightgreen;*/
+
 }
 
 
