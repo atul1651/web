@@ -233,10 +233,9 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 
 
 				<div class="col-md-4">
-
-<p>
-The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".[1] Natura is a Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics that plants, animals, and other features of the world develop of their own accord.[2][3] The concept of nature as a whole, the physical universe, is one of several expansions of the original notion; it began with certain core applications of the word φύσις by pre-Socratic philosophers, and has steadily gained currency ever since. This usage continued during the advent of modern scientific method in the last several centuries.[4][5]</p>
-				
+		 <%= link_to "/welcome/contact" do %>
+				<%= image_tag 'about/plus.png'%>
+				<% end %>
 				</div>
 			</div>
     </section>
@@ -315,7 +314,7 @@ The word nature is derived from the Latin word natura, or "essential qualities, 
 
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <!--<section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -365,7 +364,7 @@ The word nature is derived from the Latin word natura, or "essential qualities, 
                         <h4>Treehouse</h4>
                         <p class="text-muted">Website Design</p>
                     </div>
-                </div>
+                </div>-->
                 <!--<div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -409,7 +408,105 @@ The word nature is derived from the Latin word natura, or "essential qualities, 
                     </div>
                 </div>
             </div>-->
-        </div>
+        <!--</div>
+    </section>-->
+
+
+    <section id="services">
+
+
+        <div class="container">
+            <div class="row">
+
+
+
+
+
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">BLOGS</h2>
+                    <h3 class="section-subheading text-muted">Following are the blogs :</h3>
+                </div>
+            </div>
+
+
+
+
+            <div class="row text-center">
+				<div class="col-md-4">
+
+				<div class="hovereffect">
+		<img class="img-responsive"  src="Untitled-1.jpg" width="100%" height="100%" alt="">
+				<div class="overlay">
+				<a href="/welcome/blog/#timeline"><h2>blog 1</h2>
+    <p>If you can't do great things, do small things in a great way - That's what Content Marketing requires. </p> </a>
+				</div>
+				</div>
+				</div>
+
+				<div class="col-md-4">
+
+				<div class="hovereffect">
+				<img class="img-responsive" src="SMM-1.png" width="100%" height="100%" alt="">
+				<div class="overlay">
+				<a href="/welcome/blog/#timeline1"><h2>blog 2</h2>
+				<p> Most Small-Business Entrepreneurs bear some Digital Marketing Myths in their minds</p>
+				 </a>
+				</div>
+				</div>
+				</div>
+
+				<div class="col-md-4">
+
+				<div class="hovereffect">
+				<img class="img-responsive" src="website-development-1.png" width="100%" height="100%" alt="">
+				<div class="overlay">
+				<a href="/welcome/blog/#timeline2"><h2>blog 3</h2>
+		<p> Are you excited about what’s trending HOT on Social Media?</p>
+				 </a>
+				</div>
+				</div>
+
+				</div>
+
+				</div>
+
+
+
+            <!--<div class="row text-center">
+				<div class="col-md-4">
+
+				<div class="hovereffect">
+				<img class="img-responsive" src="Content-marketing1.png" width="100%" height="100%" alt="">
+				<div class="overlay">
+				<a href="/welcome/service4"><h2>CONTENT MARKETING</h2>
+				<p> “Showcase SMART content and you'll earn the right to promote your product, content being the atomic particle of all Digital marketing.”</p>
+				 </a>
+				</div>
+				</div>
+
+				</div>
+
+
+
+
+				<div class="col-md-4">
+				<div class="hovereffect">
+				<img class="img-responsive"  src="ORM1.png" width="100%" height="100%" alt="">
+				<div class="overlay">
+				<a href="/welcome/service5"><h2>ORM</h2>
+<p>“Do not leave your reputation to chance or gossip; it is your life's artwork, and you must craft it, hone it, and display it with the care of an artist.”</p> </a>
+				</div>
+				</div>
+
+				</div>
+
+
+				<div class="col-md-4">
+		 <%= link_to "/welcome/contact" do %>
+				<%= image_tag 'about/Plus_sign.gif'%>
+				<% end %>
+				</div>
+			</div>-->
     </section>
 
 
@@ -738,6 +835,11 @@ color:red;
 
 
 }*/
+
+div.col-sm-4 a{
+
+outline:none;
+}
 div.abt-heading{
 
 text-align:center;
@@ -784,6 +886,7 @@ padding:1%;
   text-align: center;
   cursor: default;
 margin-left: 0px;
+outline: none;
 }
 
 .hovereffect .overlay {
@@ -800,6 +903,7 @@ margin-left: 0px;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
+outline: none;
 }
 
 .hovereffect:hover .overlay {
@@ -855,6 +959,7 @@ margin-left: 0px;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+outline: none;
 }
 
 .hovereffect a{

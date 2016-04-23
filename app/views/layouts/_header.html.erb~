@@ -65,10 +65,18 @@
 </html>
 
 <style>
+
+a.navbar-brand page-scroll img {
+
+    outline: none;
+
+}
 .navbar-brand > img {
     display: block;
     margin-top: -40px;
+    outline: none;
 }
+
 
 .navbar-default {
 
@@ -94,7 +102,7 @@ text-decoration:underline;
 a {
     color: #000;
     text-decoration: none;
-
+outline: none;
 }
 
 a {
@@ -104,6 +112,7 @@ a {
     background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
     padding: 0px;
     transition: #F2F1F0 0.6s ease 0s;
+    outline: none;
 }
 ul.dropbtn {
 
@@ -114,6 +123,10 @@ ul.dropbtn {
     cursor: pointer;
     margin-top: 5%;
 
+}
+
+div.team-member {
+    outline: none;
 }
 
 .dropdown {

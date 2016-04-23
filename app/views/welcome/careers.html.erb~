@@ -1,156 +1,60 @@
-    <!--<html>
- Team Section 
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Following are the developers for our team</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-
-  <%= image_tag "team/1.jpg" %>
-                        <h4>Vrushali Patil</h4>
-                        <p class="text-muted">DEVELOPER</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-
-  <%= image_tag "team/2.jpg" %>
-                        <h4>Atul Samage</h4>
-                        <p class="text-muted">DEVELOPER</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-             <div class="col-sm-4">
-                    <div class="team-member">
-
-  <%= image_tag "team/3.jpg" %>
-                        <h4>Nayana Patil</h4>
-                        <p class="text-muted">ADMIN</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Ruby on Rails is for everyone who wants to build web applications, whether they're 30-year veterans or only just started to learn yesterday. All are welcome!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</html>--->
-
-
-
-
 <html>
 <div class="floated-content"><h3>Careers</h3>
 
-<div id="timeline" name="timeline">Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.
+<div id="timeline" name="timeline">
+<h3>SEO ANALYST</h3>
+<p>Define requirements, tasks, and resources associated to SEO strategy.</p>
+<p>Manage and execute implementation of SEO strategy.</p>
+<p>Communication to clients, team, and management on strategy/project development, timelines, and results.</p>
+<p>Collaborate on client strategy and goal definition for success.</p>
+<p>Keep pace with SEO, search engine, social media and internet marketing industry trends and development.</p>
+<p>Contribution to the company blog and at least one social media community.</p>
+<p>Provide SEO analysis and recommendations in coordination with elements and structure of websites and web pages Perform keyword research in coordination with client business objectives to optimize existing content and uncover new opportunities.</p>
+<p>Provide recommendations and execute/manage strategies for content development in coordination with SEO goals – general and keyword specific.</p>
 
-The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".[1] Natura is a Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics that plants, animals, and other features of the world develop of their own accord.[2][3] The concept of nature as a whole, the physical universe, is one of several expansions of the original notion; it began with certain core applications of the word φύσις by pre-Socratic philosophers, and has steadily gained currency ever since. This usage continued during the advent of modern scientific method in the last several centuries.[4][5]
+<p>Strong understanding of Search Engine Marketing (SEM) and Search Engine Optimization (SEO) process</p>
+<p>Experience working with popular keyword tools (Google, WordTracker, Keyword Discovery, etc)</p>
+<p>Experience working with CMS and building/administering content in multiple CMS environments</p>
+<p>Knowledge of HTML/CSS and website administration</p>
+<p>High-level proficiency in MS Excel, PowerPoint, and Word</p>
+<p>Experience with website analysis using a variety of analytics tools including Google Analytics as well as internal reporting tools</p>
+<p>Knowledge of PPC programs and optimizing data gathered from both organic and paid sources</p>
+<p>Should be able to guide team and take responsibilities for SEO and SMO strategies.</p>
+<p>Should be able to deal with responsibilities entrusted as a senior manager.</p>
 
 
-Within the various uses of the word today, "nature" often refers to geology and wildlife. Nature can refer to the general realm of living plants and animals, and in some cases to the processes associated with inanimate objects – the way that particular types of things exist and change of their own accord, such as the weather and geology of the Earth. It is often taken to mean the "natural environment" or wilderness–wild animals, rocks, forest, and in general those things that have not been substantially altered by human intervention, or which persist despite human intervention. For example, manufactured objects and human interaction generally are not considered part of nature, unless qualified as, for example, "human nature" or "the whole of nature". This more traditional concept of natural things which can still be found today implies a distinction between the natural and the artificial, with the artificial being understood as that which has been brought into being by a human 
-to the phenomena of the physical world, and also to life in general. The study of nature is a large part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.
-
-The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".[1] Natura is a Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics that plants, animals, and other features of the world develop of their own accord.[2][3] The concept of nature as a whole, the physical universe, is one of several expansions of the original notion; it began with certain core applications of the word φύσις by pre-Socratic philosophers, and has steadily gained currency ever since. This usage continued during the advent of modern scientific method in the last several centuries.[4][5]
-
-
-Within the various uses of the word today, "nature" often refers to geology and wildlife. Nature can refer to the general realm of living plants and animals, and in some cases to the processes associated with inanimate objects – the way that particular types of things exist and change of their own accord, such as the weather and geology of the Earth. It is often taken to mean the "natural environment" or wilderness–wild animals, rocks, forest, and in general those things that have not been substantially altered by human intervention, or which persist despite human intervention. For example, manufactured objects and human interaction generally are not considered part of nature, unless qualified as, for example, "human nature" or "the whole of nature". This more traditional concept of natural things which can still be found today implies a distinction between the natural and the artificial, with the artificial being understood as that which has been brought into being by a human
-to the phenomena of the physical world, and also to life in general. The study of nature is a large part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.
-
-The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".[1] Natura is a Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics that plants, animals, and other features of the world develop of their own accord.[2][3] The concept of nature as a whole, the physical universe, is one of several expansions of the original notion; it began with certain core applications of the word φύσις by pre-Socratic philosophers, and has steadily gained currency ever since. This usage continued during the advent of modern scientific method in the last several centuries.[4][5]
-
-
-Within the various uses of the word today, "nature" often refers to geology and wildlife. Nature can refer to the general realm of living plants and animals, and in some cases to the processes associated with inanimate objects – the way that particular types of things exist and change of their own accord, such as the weather and geology of the Earth. It is often taken to mean the "natural environment" or wilderness–wild animals, rocks, forest, and in general those things that have not been substantially altered by human intervention, or which persist despite human intervention. For example, manufactured objects and human interaction generally are not considered part of nature, unless qualified as, for example, "human nature" or "the whole of nature". This more traditional concept of natural things which can still be found today implies a distinction between the natural and the artificial, with the artificial being understood as that which has been brought into being by a human
-to the phenomena of the physical world, and also to life in general. The study of nature is a large part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.
-
-The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".[1] Natura is a Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics that plants, animals, and other features of the world develop of their own accord.[2][3] The concept of nature as a whole, the physical universe, is one of several expansions of the original notion; it began with certain core applications of the word φύσις by pre-Socratic philosophers, and has steadily gained currency ever since. This usage continued during the advent of modern scientific method in the last several centuries.[4][5]
-
-
-Within the various uses of the word today, "nature" often refers to geology and wildlife. Nature can refer to the general realm of living plants and animals, and in some cases to the processes associated with inanimate objects – the way that particular types of things exist and change of their own accord, such as the weather and geology of the Earth. It is often taken to mean the "natural environment" or wilderness–wild animals, rocks, forest, and in general those things that have not been substantially altered by human intervention, or which persist despite human intervention. For example, manufactured objects and human interaction generally are not considered part of nature, unless qualified as, for example, "human nature" or "the whole of nature". This more traditional concept of natural things which can still be found today implies a distinction between the natural and the artificial, with the artificial being understood as that which has been brought into being by a human
 </div>
 
 <div id="timeline1" name="timeline1">
 
-The words nature and natural are used for all the things that are normally not made by humans. Things like weather, organisms, landforms, celestial bodies and much more are part of nature. Scientists study the way the parts of nature work. Things that have been made by people are said to be man-made or called artifacts.
+<h3>WEB DEVELOPER</h3>
 
-There are natural sciences that study different parts of nature, for example the science of ecology is about plants and animals as a whole, while biology studies every type of living thing.
+<p>Defines site objectives by analyzing user requirements; envisioning system features and functionality.</p>
+<p>Designs and develops user interfaces to Internet/intranet applications by setting expectations and features priorities throughout development life cycle; determining design methodologies and tool sets; completing programming using languages and software products; designing and conducting tests.</p>
+<p>Recommends system solutions by comparing advantages and disadvantages of custom development and purchase alternatives.
+Integrates applications by designing database architecture and server scripting; studying and establishing connectivity with network systems, search engines, and information servers.</p>
+<p>Creates multimedia applications by using authoring tools.</p>
+<p>Completes applications development by coordinating requirements, schedules, and activities; contributing to team meetings; troubleshooting development and production problems across multiple environments and operating platforms.</p>
+<p>Supports users by developing documentation and assistance tools.</p>
+<p>Thorough knowledge of PHP,HTML,HTML5.CSS,Wordpress,Java Script</p>
+<p>Dot Net and knowledge about other technologies will be a add on</p>
 
-From one point of view, humans are a prime example of nature, and are the most widely studied natural inhabitants of the planet earth. Humans interact with each other in their natural environment on a constant basis. Every part of nature – everything from the air to the dirt on the ground – is interdependent. Medicine studies humans in health and sickness.
+</div>
 
-From another point of view, humans and nature can be said to be in conflict. Nature is often seen by humans as natural resources. People cut down trees to get wood to burn, to build houses, or to make a place to grow food. Fires, cars, and factories make a lot of smoke and harm many places. People who like to leave nature unharmed and those who feel they need to use more of nature often fight about what they should do. In the modern world, with many more people and many big cities, these problems are becoming more serious.
+<div id="timeline2" name="timelinh3e1">
+<h3>CONTENT WRITTER</h3>
+<p>Copy- editing and proof reading articles and other web content.</p>
+<p>Finding and developing new ideas for web content.</p>
+<p>Assuring web content is user friendly and key worded for SEO benefit.</p>
+<p>Moderating user generated content such as message facebook pages/ post/ twitter replies.</p>
+<p>Familiarity with internet marketing search engine optimization or web development is a plus.</p>
+<p>Ability to write online engaging online content.</p>
+<p>Confident communication skill and excellent English, especially written.</p>
+<p>Basic knowledge of HTML and at least some understanding of the management system.</p>
 
-Nature, in the broadest sense, means the physical world as a whole. This is the meaning that physics, the study of nature (etymologically), takes.
-The words nature and natural are used for all the things that are normally not made by humans. Things like weather, organisms, landforms, celestial bodies and much more are part of nature. Scientists study the way the parts of nature work. Things that have been made by people are said to be man-made or called artifacts.
-
-There are natural sciences that study different parts of nature, for example the science of ecology is about plants and animals as a whole, while biology studies every type of living thing.
-
-From one point of view, humans are a prime example of nature, and are the most widely studied natural inhabitants of the planet earth. Humans interact with each other in their natural environment on a constant basis. Every part of nature – everything from the air to the dirt on the ground – is interdependent. Medicine studies humans in health and sickness.
-
-From another point of view, humans and nature can be said to be in conflict. Nature is often seen by humans as natural resources. People cut down trees to get wood to burn, to build houses, or to make a place to grow food. Fires, cars, and factories make a lot of smoke and harm many places. People who like to leave nature unharmed and those who feel they need to use more of nature often fight about what they should do. In the modern world, with many more people and many big cities, these problems are becoming more serious.
-
-Nature, in the broadest sense, means the physical world as a whole. This is the meaning that physics, the study of nature (etymologically), takes.
-The words nature and natural are used for all the things that are normally not made by humans. Things like weather, organisms, landforms, celestial bodies and much more are part of nature. Scientists study the way the parts of nature work. Things that have been made by people are said to be man-made or called artifacts.
-
-There are natural sciences that study different parts of nature, for example the science of ecology is about plants and animals as a whole, while biology studies every type of living thing.
-
-From one point of view, humans are a prime example of nature, and are the most widely studied natural inhabitants of the planet earth. Humans interact with each other in their natural environment on a constant basis. Every part of nature – everything from the air to the dirt on the ground – is interdependent. Medicine studies humans in health and sickness.
-
-From another point of view, humans and nature can be said to be in conflict. Nature is often seen by humans as natural resources. People cut down trees to get wood to burn, to build houses, or to make a place to grow food. Fires, cars, and factories make a lot of smoke and harm many places. People who like to leave nature unharmed and those who feel they need to use more of nature often fight about what they should do. In the modern world, with many more people and many big cities, these problems are becoming more serious.
-
-Nature, in the broadest sense, means the physical world as a whole. This is the meaning that physics, the study of nature (etymologically), takes.
-The words nature and natural are used for all the things that are normally not made by humans. Things like weather, organisms, landforms, celestial bodies and much more are part of nature. Scientists study the way the parts of nature work. Things that have been made by people are said to be man-made or called artifacts.
-
-There are natural sciences that study different parts of nature, for example the science of ecology is about plants and animals as a whole, while biology studies every type of living thing.
-
-From one point of view, humans are a prime example of nature, and are the most widely studied natural inhabitants of the planet earth. Humans interact with each other in their natural environment on a constant basis. Every part of nature – everything from the air to the dirt on the ground – is interdependent. Medicine studies humans in health and sickness.
-
-From another point of view, humans and nature can be said to be in conflict. Nature is often seen by humans as natural resources. People cut down trees to get wood to burn, to build houses, or to make a place to grow food. Fires, cars, and factories make a lot of smoke and harm many places. People who like to leave nature unharmed and those who feel they need to use more of nature often fight about what they should do. In the modern world, with many more people and many big cities, these problems are becoming more serious.
-
-Nature, in the broadest sense, means the physical world as a whole. This is the meaning that physics, the study of nature (etymologically), takes.
 </div>
 
 
-<div id="timeline2" name="timeline2">
-
-India Nature Watch, usually referred to as INW, is a non-commercial community website that focuses on sharing photographs of Indian wildlife.[1] The site was started in 2005 by Sudhir Shivaram, Kalyan Varma, Yathin S K and Vijay Cavale.[2]
-
-INW allows uploads into eight categories: Birds, Mammals, Reptiles & Amphibians, Butterflies & Moths, Landscape, Insects & Other Invertebrate, Flora and Others[3] and currently hosts close to 400,000 photographs of Indian wildlife. The copyright of images hosted on the site remains with the photographer, although the site does encourage photographers to release photographs under more liberal licenses like Creative Commons.[4]
-
-The site was started by the moderators of a popular mailing list called india-nature-pixs when Yahoo stopped storing of attachments on its groups service.[citation needed] The aim of the site is to help document and share India's rich but threatened wildlife through the means of photography, with the help of a community of wildlife photographers in India. Photographs posted on the site have uncovered new ranges for species and documentation of rare wildlife,[5][6] though the website has come under fire for being emblematic of an Indian wildlife photography culture that has failed to support conservation efforts in any meaningful way.[7]
-
-INW also maintains a strong neutral and non-conflict culture and discourages posting of controversial photographs. It is believed to be the most popular site in India for wildlife photographs.[7
-</div>
 <p>Get with others who have the same desire, and take that first step</p>
 <p>There is nothing better than working in an organization with a great growing culture. Digimerc is full of young heads and hearts working as a family. With us work is never a mandate because it's not just a JOB...you wake up every day looking forward to getting back to work on the mission with people you enjoy being around.</p>
 <p>If you think you have a flare for digital media and think going Digital is the right career for you then Digimerc is waiting to hear from you.</p>

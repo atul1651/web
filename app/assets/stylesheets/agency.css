@@ -637,6 +637,7 @@ color:white;
 .team-member {
     margin-bottom: 50px;
     text-align: center;
+outline:none;
 }
 
 .team-member img {
