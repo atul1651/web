@@ -21,7 +21,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
-                    </li>
                     <li >
                 <a class="navbar-brand page-scroll" href="/">  <%= link_to "Home",:controller=>'welcome',:action=>'home' %></a>
                     </li>
