@@ -38,9 +38,8 @@ $(function(){
 
 <style>
 #map {
-margin-top:60px;
-width: 1500px;
-height: 400px;
+margin-top:5%;
+
       }
 div#address{
 
@@ -53,25 +52,7 @@ color:white;
 <div class="floated-content">
 <h4>Find us on google:</h4>
     <div id="map"></div>
-    <script>
-      function initMap() {
-        var mapDiv = document.getElementById('map');
-        var map = new google.maps.Map(mapDiv, {
-          center: {lat: 18.483502, lng: 73.85730269999999},
-          zoom: 13
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"async defer></script>
-</div>
-  </body>
-</html>
-
-<div id="address">
-<h3>Office address</h3>
-
-2nd Floor, 49/2B/3, "VAIBHAV" Building, Maharashtra Co-op Housing Society, Pune - Satara Road, Parvati, Pune, Maharashtra 411009
-
+    
 </div>
  
 <html>
