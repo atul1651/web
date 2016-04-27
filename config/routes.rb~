@@ -6,7 +6,9 @@ Rails.application.routes.draw do
 get 'welcome/terms'=>'welcome#terms'
 get 'welcome/about'=>'welcome#about'
 get 'welcome/careers'=>'welcome#careers'
+get 'welcome/careers1'=>'welcome#careers1'
 get 'welcome/blog'=>'welcome#blog'
+get 'welcome/blog1'=>'welcome#blog1'
 get 'welcome/services'=>'welcome#services'
 get 'welcome/contact'=>'welcome#contact'
 

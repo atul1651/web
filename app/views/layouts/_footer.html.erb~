@@ -1,4 +1,16 @@
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=800,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
 
+<!--<p>
+
+<a href="JavaScript:newPopup('http://www.quackit.com/javascript/examples/sample_popup.cfm');">Open a popup window</a>
+
+</p>-->
 
 <html>
   <!-- footer -->  
@@ -16,8 +28,8 @@
 
                     <p><a href="/">HOME</a></p>
                     <p><%= link_to 'ABOUT',:controller=>'welcome',:action=>'about'%></p>
-                    <p><%= link_to 'BLOG',:controller=>'welcome',:action=>'blog'%></p>
-                    <p><%= link_to 'CAREERS',:controller=>'welcome',:action=>'careers'%></p>
+                    <p><%= link_to 'BLOG',:controller=>'welcome',:action=>'blog1'%></p>
+                    <p><%= link_to 'CAREERS',:controller=>'welcome',:action=>'careers1'%></p>
                     <p><%= link_to 'CONTACT',:controller=>'welcome',:action=>'contact'%></p>
 
                 </div>
@@ -29,8 +41,8 @@
 
                      <p> <%= link_to 'SEO',:controller=>'welcome',:action=>'service1'%></p>
                       <p><%= link_to 'SMM',:controller=>'welcome',:action=>'service2'%></p>
-                      <p><%= link_to 'Web development',:controller=>'welcome',:action=>'service3'%></p>
-                      <p><%= link_to 'Content marketing',:controller=>'welcome',:action=>'service4'%></p>
+                      <p><%= link_to  'WEB DEVELOPMENT',:controller=>'welcome',:action=>'service3'%></p>
+                      <p><%= link_to 'CONTENT MARKETING',:controller=>'welcome',:action=>'service4'%></p>
                       <p><%= link_to 'ORM',:controller=>'welcome',:action=>'service5'%></p>
 
                   </div>
@@ -41,55 +53,53 @@
                   <div class="aa-footer-widget">
                     <h3>social links</h3>
              
- <div class="container">
+ 	   <div class="container">
             <div class="row">
 
 
 
-    <%= link_to " https://www.facebook.com/digimercsolutions/" do %>
-        <%= image_tag ('about/Facebook.png') %>
-    <% end %>
+			    <%= link_to "JavaScript:newPopup('https://www.facebook.com/digimercsolutions/');" do %>
+
+				<%= image_tag ('about/Facebook.png') %>
+			    <% end %>
+
+
+
+			    <%= link_to "JavaScript:newPopup('https://www.youtube.com/channel/UCJeyTbd1iwivlVUDX0T8MNg');" do %>
+
+
+				<%= image_tag ('about/Youtube.png')  %>
+
+			    <% end %>
+
+
+
+			    <%= link_to "JavaScript:newPopup('https://twitter.com/digimercdigital');" do %>
+
+
+				<%= image_tag ('about/Twitter.png') %>
+			    <% end %>
 
 
 
 
- <%= link_to "https://www.youtube.com/channel/UCJeyTbd1iwivlVUDX0T8MNg" do %>
-        <%= image_tag ('about/Youtube.png')  %>
-    <% end %>
-
-
-
-
-
- <%= link_to "https://twitter.com/digimercdigital" do %>
-        <%= image_tag ('about/Twitter.png') %>
-    <% end %>
-
-
-
-
-                               </div> 
+            </div> 
 
           <div class="row">
+			    <%= link_to "JavaScript:newPopup('http://www.linkedin.com');" do %>
 
 
- <%= link_to "http://www.linkedin.com" do %>
-        <%= image_tag ('about/Linked-in.png')  %>
-    <% end %>
-
-
-
+				<%= image_tag ('about/Linked-in.png')  %>
+			    <% end %>
 
 
 
- <%= link_to "https://plus.google.com/u/0/111316807990651206263" do %>
-        <%= image_tag ('about/gp.png') %>
-    <% end %>
+			    <%= link_to "JavaScript:newPopup('https://plus.google.com/u/0/111316807990651206263');" do %>
 
 
 
-
-
+				<%= image_tag ('about/gp.png') %>
+			    <% end %>
 
 
  

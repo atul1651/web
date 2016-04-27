@@ -2,7 +2,7 @@
 <div class="floated-content"><h3>Careers</h3>
 
 <div id="timeline" name="timeline">
-<h3>SEO ANALYST</h3>
+<h4>1) SEO ANALYST</h4>
 <p>Define requirements, tasks, and resources associated to SEO strategy.</p>
 <p>Manage and execute implementation of SEO strategy.</p>
 <p>Communication to clients, team, and management on strategy/project development, timelines, and results.</p>
@@ -27,7 +27,7 @@
 
 <div id="timeline1" name="timeline1">
 
-<h3>WEB DEVELOPER</h3>
+<h4>2) WEB DEVELOPER</h4>
 
 <p>Defines site objectives by analyzing user requirements; envisioning system features and functionality.</p>
 <p>Designs and develops user interfaces to Internet/intranet applications by setting expectations and features priorities throughout development life cycle; determining design methodologies and tool sets; completing programming using languages and software products; designing and conducting tests.</p>
@@ -42,7 +42,7 @@ Integrates applications by designing database architecture and server scripting;
 </div>
 
 <div id="timeline2" name="timelinh3e1">
-<h3>CONTENT WRITTER</h3>
+<h4>3) CONTENT WRITTER</h4>
 <p>Copy- editing and proof reading articles and other web content.</p>
 <p>Finding and developing new ideas for web content.</p>
 <p>Assuring web content is user friendly and key worded for SEO benefit.</p>

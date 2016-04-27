@@ -24,7 +24,7 @@
 $(function(){
             // hide the div on page load and use a slidedown effect
             $('section#contact').fadeOut(0, function(){
-                $(this).slideDown(15000);
+                $(this).slideDown(3000);
 		});
 		});
    
@@ -70,7 +70,7 @@ color:white;
 <div id="address">
 <h3>Office address</h3>
 
-2nd Floor, 49/2B/3, "VAIBHAV" Building,, Maharashtra Co-op Housing Society, Pune - Satara Road, Parvati, Pune, Maharashtra 411009
+2nd Floor, 49/2B/3, "VAIBHAV" Building, Maharashtra Co-op Housing Society, Pune - Satara Road, Parvati, Pune, Maharashtra 411009
 
 </div>
  
@@ -125,3 +125,13 @@ color:white;
 
 
         </html>
+
+
+<style>
+div#address {
+    color: #FFF;
+    font-size: 15px;
+}
+
+
+</style>
