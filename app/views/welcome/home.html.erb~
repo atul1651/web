@@ -9,18 +9,32 @@
     <script>
     
 
- $(function(){
+ /*$(function(){
             // hide the div on page load and use a slidedown effect
             $('div#black-page').fadeOut(0, function(){
                 $(this).slideDown(3000);
             });
 
-        });
+        });*/
 
 
 
 
     </script>
+
+
+
+
+    <script>
+        $(function(){
+            // hide the div on page load and use a slidedown effect
+            $('div#polina').fadeOut(0, function(){
+                $(this).slideDown(3000);
+		});
+		});
+    </script>
+
+
 
 
 <!-----------------------------------------fade in on scroll------------------------------------------------>
@@ -54,7 +68,6 @@ background:black;
 min-height:100%;
 }
 
-
 </style>
 
 
@@ -68,14 +81,70 @@ min-height:100%;
     <source src="v/M18.webm" type="video/webm" width="100%" height="100%">
 
 </video>
+
+
+<div id="polina">
+
+<h1>In any customer driven market, Investing in a Digital media strategy is one of the best things an organisation can think of.</h1>
+
 </div>
+
+
+<style>
+
+body {
+  margin: 0;
+  background: #000; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  color:white;
+  font-size:50px;
+  text-align:center;
+  color: silver;
+  padding: 2rem;
+  width: 100%;
+margin-top:-60%;
+  float: right;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+
+</style>
+
+
+
+
 
 </body>
 <html>
 
 
 <style>
-
 
 video#bgvid { 
 
@@ -87,7 +156,7 @@ video#bgvid {
     min-height:100%;
     width: auto;
     height: auto;
-    z-index: 1;
+    z-index: -100;
 margin-bottom:-25%;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -111,7 +180,7 @@ margin-bottom:-25%;
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Atul</title>
+
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -149,14 +218,14 @@ margin-bottom:-25%;
             <div class="row">
 <div id="abt">
 <div class="abt-heading"><h2>ABOUT US</h2></div>
-Digital Media is here. It's not going away, not a passing fad. So be where your customers arein social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media. Being digital is the only platform in human history which allows people to really maintain rich connections with much larger numbers of people.  <%= link_to '<i class="fa fa-plus-square-o"style="font-size:25px"title="Go To About us" aria-hidden="true"></i>'.html_safe, :controller=>'welcome',:action=>'about' %> </div>
+Digital Media is here. It's not going away, not a passing fad. So be where your customers arein social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media. Being digital is the only platform in human history which allows people to really maintain rich connections with much larger numbers of people. As a social media marketing agency, Digimerchave a clear vision about the science behind what makes something shareable and have smart way to implement the same. <%= link_to '<i class="fa fa-plus-square-o"style="font-size:25px"title="Go To About us" aria-hidden="true"></i>'.html_safe, :controller=>'welcome',:action=>'about' %> </div>
 
 
 
 
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Following are the services :</h3>
+                    <!-- class="section-subheading text-muted">Following are</h3>-->
                 </div>
             </div>
 
@@ -242,175 +311,6 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
     </section>
 
 
-<!------------------------------------------------------------------------------
->    <!--<section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-            <div class="overlay">
-			<h2>SEO</h2>
-			<p> Any text
-			<a href="#">LINK HERE</a>
-			</p>
-
-                    <h4 class="service-heading"><a href="https://www.rosemarybazaar.com/">E-Commerce</a></h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                </div>
-                <div class="col-md-4">
-            <div class="overlay">
-                  	<h2>SEO</h2>
-			<p> Any text
-			<a href="#">LINK HERE</a>
-			</p>
-
-                    <h4 class="service-heading"><a href="https://en.wikipedia.org/wiki/Responsive_web_design">Responsive Design</a></h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                </div>
-                <div class="col-md-4">
-            <div class="overlay">
-                  	<h2>SEO</h2>
-			<p> Any text
-			<a href="#">LINK HERE</a>
-			</p>
-
-                    <h4 class="service-heading"><a href="http://guides.rubyonrails.org/security.html">Web Security</a></h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                </div>
-            </div>
-
-  <div class="row text-center">
-                <div class="col-md-6">
-            <div class="overlay">
-                  	<h2>SEO</h2>
-			<p> Any text
-			<a href="#">LINK HERE</a>
-			</p>
-
-                    <h4 class="service-heading"><a href="https://www.rosemarybazaar.com/">E-Commerce</a></h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                </div>
-          <div class="col-md-6">
-            <div class="overlay">
-                   	<h2>SEO</h2>
-			<p> Any text
-			<a href="#">LINK HERE</a>
-			</p>
-
-                    <h4 class="service-heading"><a href="https://www.rosemarybazaar.com/">E-Commerce</a></h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                </div>
-        </div>
-    </section>-->
-
-
-    <!-- Portfolio Grid Section -->
-    <!--<section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Blog</h2>
-                    <h3 class="section-subheading text-muted">Please check the following blog</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>-->
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            </div>-->
-        <!--</div>
-    </section>-->
 
 
     <section id="services">
@@ -425,7 +325,7 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">BLOGS</h2>
-                    <h3 class="section-subheading text-muted">Following are the blogs :</h3>
+
                 </div>
             </div>
 
@@ -436,9 +336,9 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 				<div class="col-md-4">
 
 				<div class="hovereffect">
-		<img class="img-responsive"  src="Untitled-1.jpg" width="100%" height="100%" alt="">
+		<img class="img-responsive"  src="Content.png" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<a href="/welcome/blog/#timeline"><h2></h2>
+				<a href="/welcome/blog1"><h2></h2>
     <p>If you can't do great things, do small things in a great way - That's what Content Marketing requires. </p> </a>
 				</div>
 				</div>
@@ -447,9 +347,9 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 				<div class="col-md-4">
 
 				<div class="hovereffect">
-				<img class="img-responsive" src="SMM-1.png" width="100%" height="100%" alt="">
+				<img class="img-responsive" src="myth-of-digital-marketing.png" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<a href="/welcome/blog/#timeline1"><h2></h2>
+				<a href="/welcome/blog2"><h2></h2>
 				<p> Most Small-Business Entrepreneurs bear some Digital Marketing Myths in their minds</p>
 				 </a>
 				</div>
@@ -459,9 +359,9 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
 				<div class="col-md-4">
 
 				<div class="hovereffect">
-				<img class="img-responsive" src="website-development-1.png" width="100%" height="100%" alt="">
+				<img class="img-responsive" src="trending-now-1.png" width="100%" height="100%" alt="">
 				<div class="overlay">
-				<a href="/welcome/blog/#timeline2"><h2></h2>
+				<a href="/welcome/blog3"><h2></h2>
 		<p> Are you excited about what’s trending HOT on Social Media?</p>
 				 </a>
 				</div>
@@ -555,34 +455,7 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
         </div>
     </section>
 
-    <!-- Clients Aside -->
-    <!--<aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>-->
-    
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -848,7 +721,7 @@ font-size: 40px;
 
 }
 div#abt{
-margin-top: 0%;
+margin-top: -15%;
 color:white;
 padding-left:5%;
 padding-right:5%;
@@ -979,4 +852,7 @@ font-size:25px;
 }
 
 </style>
+
+
+
 

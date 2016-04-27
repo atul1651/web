@@ -24,6 +24,17 @@ def blog1
 
 end
 
+
+def blog2
+
+
+end
+
+def blog3
+
+
+end
+
 def careers
 
 

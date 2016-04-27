@@ -20,7 +20,7 @@
 
 
 <li class="dropdown">
-  <ul class="dropbtn">	<%= link_to 'Services' %></ul>
+  <ul class="dropbtn">	SERVICES</ul>
   <div class="dropdown-content">
 	<%= link_to 'SEO',:controller=>'welcome',:action=>'service1' %>
 	<%= link_to 'SMM',:controller=>'welcome',:action=>'service2' %>
@@ -33,7 +33,7 @@
 
 
 </li>
-          <li>	<%= link_to 'Blog',:controller=>'welcome',:action=>'blog1' %></li>
+          <li>	<%= link_to 'Blog',:controller=>'welcome',:action=>'blog' %></li>
           <li>	<%= link_to 'Careers',:controller=>'welcome',:action=>'careers1' %></li>
           <li>	<%= link_to 'Contact',:controller=>'welcome',:action=>'contact' %></li>
 
@@ -155,13 +155,14 @@ a {
 }*/
 
 ul.dropbtn {
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 400;
 
-    font-size: 12px;
     border: medium none;
     cursor: pointer;
-    margin-top: 5%;
+    margin-top: 7%;
     padding-left: 9%;
-    padding-top: 26%;
+    padding-top: 27%;
     padding-right: 5%;
     margin-left: 8%;
 }

@@ -1,7 +1,12 @@
 <html>
-<div class="floated-content"><h3>BLOGS</h3>
+<div class="floated-content">
+<h4>List of blogs :</h4>
+<p>--> <%= link_to 'If you can not do great things,do small things in great way - that is what content marketing requires.',:controller=>'welcome',:action=>'blog1'%></p>
 
-<div id="timeline" name="timeline">
+<p>--> <%= link_to 'Most Small-Business Entrepreneurs bear some Digital Marketing Myths in their minds',:controller=>'welcome',:action=>'blog2'%></p>
+
+<p>--> <%= link_to 'Are you excited about what is trending HOT on Social Media?',:controller=>'welcome',:action=>'blog3'%></p>
+<!--<div id="timeline" name="timeline">
 <h4>If you can't do great things, do small things in a great way - That's what Content Marketing requires. </h4>
 <p>In a world of comments, likes, shares, and exciting YouTube videos, it can be entirely disheartening to organizations that aren't in that mood in their respective industry. Indeed, even regardless of the absence of sheer excitement, organizations are very keen in finding better content to keep their substance crisp and alluring to potential clients. </p>
 <p>While it as a rule requires more innovativeness to advertise a normally unappealing item or administration, it is not inconceivable</p>
@@ -45,7 +50,7 @@
 <p>5.) Reddit : Also a takeoff from the normal Twitter swarm, Reddit is a spot where jokes, news, and fascinating goodies from over the web are collected and positioned by number of individuals who have up-(or down-) voted the post or remark connected with it. In case need another image to fuel your substance, Reddit is an incredible spot to look. </p>
 <p>So what are you sitting tight for how about we discover what's humming hard on your online networking bed.</p>
 
-</div>
+</div>-->
 
 
 
@@ -76,14 +81,14 @@
 ------------------------------------------------
 
 
-    <!--<script>
+    <script>
         $(function(){
             // hide the div on page load and use a slidedown effect
             $('div.floated-content').fadeOut(0, function(){
                 $(this).slideDown(2000);
 		});
 		});
-    </script>-->
+    </script>
 
 
 --------------------------------------------==----

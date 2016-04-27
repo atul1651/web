@@ -9,6 +9,8 @@ get 'welcome/careers'=>'welcome#careers'
 get 'welcome/careers1'=>'welcome#careers1'
 get 'welcome/blog'=>'welcome#blog'
 get 'welcome/blog1'=>'welcome#blog1'
+get 'welcome/blog2'=>'welcome#blog2'
+get 'welcome/blog3'=>'welcome#blog3'
 get 'welcome/services'=>'welcome#services'
 get 'welcome/contact'=>'welcome#contact'
 
