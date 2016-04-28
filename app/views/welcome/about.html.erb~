@@ -68,7 +68,7 @@ Today team Digimerc is a new born baby. We are not that large, but filled with p
     position: relative;
     width:70%;
     float: left;
-    margin-left: 80px;
+margin-left: 5%;
     margin-top: 10%;
     color: white;
 }
