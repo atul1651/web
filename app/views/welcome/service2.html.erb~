@@ -1,14 +1,14 @@
 <html>
 
 
-      <div class="floated-content"><h3>SMM</h3>
+      <div class="floated-content"><h3>SMM - Social Media Marketing</h3>
 <p>
 Today's marketing is really about sending out the right smoke signals to attract your tribe. This signal would be incomplete if you ignore the relevant social media platform in your marketing strategy. It would be like opening a new business and not telling anyone.
 </p>
 <p>
-Social media is the hot trending marketing solution for any new or existing brand in creating new sales. In social media, content leads to conversations, conversations build relationships, and relationships result in ROI. It’s easier said than done as it requires expertise, experience and creativity to reach at right time and impact the customers. That’s where Digimerc helps you creating your brand awareness in social media.
+Social media marketing is a trending marketing solution for any new or existing brand in creating new sales. In social media, content leads to conversations, conversations build relationships, and relationships result in ROI. It’s easier said than done as it requires expertise, experience and creativity to reach at right time and impact the customers. That’s where Digimerc helps you creating your brand awareness in social media.
 </p>
-<p>There are many platforms available today that helps create a brand on the social media but one need to strike the right chord so as to have desired outcome. We at Digimerc believe in blending strategy, creativity, media and technology. We develop big and small ideas that bring brands alive socially whether they exist as services, stories or campaigns. We craft and deploy an impactful social media strategy, reach out blogger communities having greatest voice within their social networks, perform social media distribution, tactfully manage campaigns, conduct performance analysis for social media campaigns and redefine the social media strategies to churn greater impact. Our expertise will assist you in choosing the right network, fill out your profiles, find your voice & tone, pick a posting strategy, analyze and test and then finally to automate and engage with your relevant audiences because we as a team focus on how to be social, not how to do social.
+<p>There are many platforms available today that helps create a brand on the social media but one need to strike the right chord so as to have desired outcome. We believe in blending strategy, creativity, media and technology. We develop big and small ideas that bring brands alive socially whether they exist as services, stories or campaigns. We craft and deploy an impactful social media strategy, reach out blogger communities who have greatest voice within their social networks, perform social media distribution, tactfully manage campaigns, conduct performance analysis for social media campaigns and redefine the social media strategies to churn greater impact. Our expertise will assist you in choosing the right network, fill out your profiles, find your voice & tone, pick a posting strategy, analyze and test and then finally to automate and engage with your relevant audiences because we as a team focus on how to be social, not how to do social.
 </p>
 
 <p>
@@ -66,7 +66,7 @@ color: white;
     position: relative;
     width:70%;
     float: left;
-
+font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
 margin-left: 5%;
 margin-top: 10%;
 color: white;

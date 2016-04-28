@@ -146,7 +146,7 @@ color: white;
     position: relative;
     width:70%;
     float: left;
-
+font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
 margin-left: 5%;
 margin-top: 10%;
 color: white;

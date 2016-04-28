@@ -85,7 +85,7 @@ min-height:100%;
 
 <div id="polina">
 
-<h1>In any customer driven market, Investing in a Digital media strategy is one of the best things an organisation can think of.</h1>
+<h1>"Investing in a Digital media strategy is one of the best things an organisation can think of."</h1>
 
 </div>
 
@@ -218,7 +218,7 @@ margin-bottom:-25%;
             <div class="row">
 <div id="abt">
 <div class="abt-heading"><h2>ABOUT US</h2></div>
-Digital Media is here. It's not going away, not a passing fad. So be where your customers arein social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media. Being digital is the only platform in human history which allows people to really maintain rich connections with much larger numbers of people. As a social media marketing agency, Digimerchave a clear vision about the science behind what makes something shareable and have smart way to implement the same. <%= link_to '<i class="fa fa-plus-square-o"style="font-size:25px"title="Go To About us" aria-hidden="true"></i>'.html_safe, :controller=>'welcome',:action=>'about' %> </div>
+Digital Media is here. It's not going away, not a passing fad. So be where your customers are in social media. Almost overnight, the internet's gone from a technical wonder to a business must. So as the desperate need for Digital media,being digital is the only platform in human history which allows people to really maintain rich connections with much larger number of people. As a social media marketing agency, Digimerc has a clear vision about the science behind what makes something shareable and has a smart way to implement the same. <%= link_to '<i class="fa fa-plus-square-o"style="font-size:20px"title="Go To About us" aria-hidden="true"></i>'.html_safe, :controller=>'welcome',:action=>'about' %> </div>
 
 
 
@@ -462,7 +462,7 @@ Digital Media is here. It's not going away, not a passing fad. So be where your 
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">PLease fill the form for feedback and queries.</h3>
+                    <h3 class="section-subheading text-muted">Please fill the form for feedback and queries.</h3>
                 </div>
             </div>
             <div class="row">

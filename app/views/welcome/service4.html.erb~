@@ -2,15 +2,15 @@
 
 
       <div class="floated-content"><h3>CONTENT MARKETING</h3>
-<p>Write it simple.</p>
+<p>"Write it simple.</p>
 <p>Write it Memorable.</p>
 <p> Write it inviting to look at.</p>
-<p>Write and make it a fun to read.</p> 
-<p>We do results in work that’s far more shareable.</p>
-<p>Because content marketing is a commitment, not a campaign. If you’re interested in marketing your business online, you can’t escape hearing about content marketing. It’s everywhere you look or listen. Even though your online content is meant for a human audience, it must still meet the needs of the search engines.  The content that people desire and seek out and its great content that Google wants to rank well in the search results so those people can find your business. </p>
-<p>Don’t you forget that we are in the world where it is all about concrete content and its marketing. We at Digimerc create engaging content, use consumer insights to connect with your customers, build your brand & drive commerce. We research before we set out to create content that hits the nail on the head. That’s when we spread it at just the right places.</p>
-<p>When whosoever reads your content and says - "This was written specifically for me". Trust us your content has won the battle for your product or services because we at Digimerc are very well aware of the fact that Google only loves you (content) when everyone else loves your first.</p>
-<p>All we do is just tell your true story well because marketing is no longer about the stuff that you make, but about the stories you tell.</p>
+<p>Write and make it a fun to read."</p> 
+<p>We do work, results of which are far more shareable.</p>
+<p>Because content marketing is a commitment, not a campaign. If you’re interested in marketing your business online, you can’t escape hearing about content marketing. It’s everywhere you look or listen. Even though your online content is meant for a human audience, it must still meet the needs of the search engines. There is content that people desire and seek out AND it is this great content that Google wants to rank well in the search results so those people can find your business. </p>
+<p>Don’t forget that we are in the world where it is all about concrete content and its marketing. We at Digimerc create engaging content, use consumer insights to connect with your customers, build your brand & drive commerce. We research before we set out to create content that hits the nail on the head. That’s when we spread it and we do it just at the right places.</p>
+<p>When whosoever reads your content and says - "This was written specifically for me!". Trust us your content has won the battle for your product or services because we are very well aware of the fact that Google only loves your content, when everyone else loves your first.</p>
+<p>All we do is just tell your true story really well because marketing is no longer about the stuff that you make, but about the stories you tell.</p>
       </div>
       <!-- ends floated content -->
       <!-- sidebar -->
@@ -62,7 +62,7 @@ color: white;
     position: relative;
     width:70%;
     float: left;
-
+font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
 margin-left: 5%;
 margin-top: 10%;
     color: white;
