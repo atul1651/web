@@ -725,9 +725,11 @@ margin-top: -15%;
 color:white;
 padding-left:5%;
 padding-right:5%;
-font-size: 15px;
+/*font-size: 15px;*/
 margin-bottom:90px;
  /*background-color: lightgreen;*/
+
+font: 14px/30px Roboto,Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
