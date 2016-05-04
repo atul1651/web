@@ -14,7 +14,7 @@ def services
 
 end
 
-def blog
+def blogs
 
 
 end

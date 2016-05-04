@@ -28,8 +28,8 @@ function newPopup(url) {
 
                     <p><a href="/">HOME</a></p>
                     <p><%= link_to 'ABOUT',:controller=>'welcome',:action=>'about'%></p>
-                    <p><%= link_to 'BLOG',:controller=>'welcome',:action=>'blog1'%></p>
-                    <p><%= link_to 'CAREERS',:controller=>'welcome',:action=>'careers1'%></p>
+                    <p><%= link_to 'BLOG',:controller=>'welcome',:action=>'blogs'%></p>
+                    <p><%= link_to 'CAREERS',:controller=>'welcome',:action=>'careers'%></p>
                     <p><%= link_to 'CONTACT',:controller=>'welcome',:action=>'contact'%></p>
 
                 </div>
