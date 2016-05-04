@@ -1,25 +1,28 @@
 Rails.application.routes.draw do
 
-  get 'welcome/page'=>'welcome#page'
 
 
-get 'welcome/terms'=>'welcome#terms'
-get 'welcome/about'=>'welcome#about'
-get 'welcome/careers'=>'welcome#careers'
-get 'welcome/careers1'=>'welcome#careers1'
-get 'welcome/blog'=>'welcome#blog'
-get 'welcome/blog1'=>'welcome#blog1'
-get 'welcome/blog2'=>'welcome#blog2'
-get 'welcome/blog3'=>'welcome#blog3'
-get 'welcome/services'=>'welcome#services'
-get 'welcome/contact'=>'welcome#contact'
+
+  #get '/page'=>'welcome#page'
+
+get '/home'=>'welcome#home'
+get '/terms'=>'welcome#terms'
+get '/about'=>'welcome#about'
+get '/careers'=>'welcome#careers'
+get '/careers1'=>'welcome#careers1'
+get '/blog'=>'welcome#blog'
+get '/blog1'=>'welcome#blog1'
+get '/blog2'=>'welcome#blog2'
+get '/blog3'=>'welcome#blog3'
+get '/services'=>'welcome#services'
+get '/contact'=>'welcome#contact'
 
 #service routes#
-get 'welcome/service1'=>'welcome#service1'
-get 'welcome/service2'=>'welcome#service2'
-get 'welcome/service3'=>'welcome#service3'
-get 'welcome/service4'=>'welcome#service4'
-get 'welcome/service5'=>'welcome#service5'
+get '/service1'=>'welcome#service1'
+get '/service2'=>'welcome#service2'
+get '/service3'=>'welcome#service3'
+get '/service4'=>'welcome#service4'
+get '/service5'=>'welcome#service5'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -76,4 +79,7 @@ get 'welcome/service5'=>'welcome#service5'
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+
+
 end
