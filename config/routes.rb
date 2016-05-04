@@ -11,18 +11,18 @@ get '/about'=>'welcome#about'
 get '/careers'=>'welcome#careers'
 get '/careers1'=>'welcome#careers1'
 get '/blogs'=>'welcome#blogs'
-get '/blog1'=>'welcome#blog1'
-get '/blog2'=>'welcome#blog2'
-get '/blog3'=>'welcome#blog3'
+get '/if_you_can_not_do_great_things_do_small_things_in_great_way_that_is_what_content_marketing_requires'=>'welcome#if_you_can_not_do_great_things_do_small_things_in_great_way_that_is_what_content_marketing_requires'
+get'/most_small_business_entrepreneurs_bear_some_digital_marketing_myths_in_their_minds'=>'welcome#most_small_business_entrepreneurs_bear_some_digital_marketing_myths_in_their_minds'
+get '/are_you_excited_about_what_is_trending_hot_on_social_media'=>'welcome#are_you_excited_about_what_is_trending_hot_on_social_media'
 get '/services'=>'welcome#services'
 get '/contact'=>'welcome#contact'
 
 #service routes#
-get '/service1'=>'welcome#service1'
-get '/service2'=>'welcome#service2'
-get '/service3'=>'welcome#service3'
-get '/service4'=>'welcome#service4'
-get '/service5'=>'welcome#service5'
+get '/seo'=>'welcome#seo'
+get '/smm'=>'welcome#smm'
+get '/web_development'=>'welcome#web_development'
+get '/content_marketing'=>'welcome#content_marketing'
+get '/orm'=>'welcome#orm'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

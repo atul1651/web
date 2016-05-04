@@ -39,11 +39,11 @@ function newPopup(url) {
                   <div class="aa-footer-widget">
                     <h3>Services</h3>
 
-                     <p> <%= link_to 'SEO',:controller=>'welcome',:action=>'service1'%></p>
-                      <p><%= link_to 'SMM',:controller=>'welcome',:action=>'service2'%></p>
-                      <p><%= link_to  'WEB DEVELOPMENT',:controller=>'welcome',:action=>'service3'%></p>
-                      <p><%= link_to 'CONTENT MARKETING',:controller=>'welcome',:action=>'service4'%></p>
-                      <p><%= link_to 'ORM',:controller=>'welcome',:action=>'service5'%></p>
+                     <p> <%= link_to 'SEO',:controller=>'welcome',:action=>'seo'%></p>
+                      <p><%= link_to 'SMM',:controller=>'welcome',:action=>'smm'%></p>
+                      <p><%= link_to  'WEB DEVELOPMENT',:controller=>'welcome',:action=>'web_development'%></p>
+                      <p><%= link_to 'CONTENT MARKETING',:controller=>'welcome',:action=>'content_marketing'%></p>
+                      <p><%= link_to 'ORM',:controller=>'welcome',:action=>'orm'%></p>
 
                   </div>
                 </div>
